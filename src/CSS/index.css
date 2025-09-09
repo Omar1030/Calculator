@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+:root {
+  /* ? Background */
+  --min-background: hsl(222, 26%, 31%);
+  --toggle-background: hsl(223, 31%, 20%);
+  --screen-background: hsl(224, 36%, 15%);
+
+  /* ? Keys */
+  --navy-700-background: hsl(223, 31%, 20%);
+  --navy-800-shadow: hsl(224, 28%, 35%);
+  --red-600-background: hsl(6, 63%, 50%);
+  --red-800-shadow: hsl(6, 70%, 34%);
+  --gray-200-background: hsl(0, 0%, 90%);
+  --gray-orange-400-shadow: hsl(28, 16%, 65%);
+
+  /* ? Text */
+  --text-navy-750: hsl(221, 14%, 31%);
+  --text-white: hsl(0, 100%, 100%);
+}
+
+html.theme-2 {
+  /* ? Background */
+  --min-background: hsl(0, 0%, 90%);
+  --toggle-background: hsl(0, 5%, 81%);
+  --screen-background: hsl(0, 0%, 93%);
+
+  /* ? Keys */
+  --navy-700-background: hsl(185, 42%, 37%);
+  --navy-800-shadow: hsl(185, 58%, 25%);
+  --red-600-background: hsl(25, 98%, 40%);
+  --red-800-shadow: hsl(25, 99%, 27%);
+  --gray-200-background: hsl(0, 0%, 90%);
+  --gray-orange-400-shadow: hsl(35, 11%, 61%);
+
+  /* ? Text */
+  --text-navy-750: hsl(60, 10%, 19%);
+  --text-white: hsl(0, 100%, 100%);
+}
+
+html.theme-3 {
+  /* ? Background */
+  --min-background: hsl(268, 75%, 9%);
+  --toggle-background: hsl(268, 71%, 12%);
+  --screen-background: hsl(268, 71%, 12%);
+
+  /* ? Keys */
+  --navy-700-background: hsl(281, 89%, 26%);
+  --navy-800-shadow: hsl(285, 91%, 52%);
+  --red-600-background: hsl(176, 100%, 44%);
+  --red-800-shadow: hsl(177, 92%, 70%);
+  --gray-200-background: hsl(268, 47%, 21%);
+  --gray-orange-400-shadow: hsl(290, 70%, 36%);
+
+  /* ? Text */
+  --text-navy-750: hsl(198, 20%, 13%);
+  --text-white: hsl(0, 100%, 100%);
+}
