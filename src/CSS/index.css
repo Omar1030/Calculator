@@ -16,15 +16,15 @@
   --gray-orange-400-shadow: hsl(28, 16%, 65%);
 
   /* ? Text */
-  --text-navy-750: hsl(221, 14%, 31%);
+  --text-navy-750: hsl(222, 13%, 25%);
   --text-white: hsl(0, 100%, 100%);
 }
 
 html.theme-2 {
   /* ? Background */
-  --min-background: hsl(0, 0%, 90%);
+  --min-background: hsl(0, 0%, 71%);
   --toggle-background: hsl(0, 5%, 81%);
-  --screen-background: hsl(0, 0%, 93%);
+  --screen-background: hsl(0, 5%, 81%);
 
   /* ? Keys */
   --navy-700-background: hsl(185, 42%, 37%);
@@ -54,6 +54,6 @@ html.theme-3 {
   --gray-orange-400-shadow: hsl(290, 70%, 36%);
 
   /* ? Text */
-  --text-navy-750: hsl(198, 20%, 13%);
-  --text-white: hsl(0, 100%, 100%);
+  --text-navy-750: hsl(52, 100%, 62%);
+  --text-white: hsl(52, 100%, 62%);
 }
