@@ -1,0 +1,9 @@
+design
+node_modules
+public
+*.json
+preview.jpg
+style-guide.md
+vite.config.js
+README-template.md
+eslint.config.js

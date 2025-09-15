@@ -1,0 +1,46 @@
+NOTE :- 
+-------
+operator , number => string
+total => double
+
+// ----------------------------- //
+
+NOTE:-
+------
+if (operator) {
+    + opertaor
+} else {
+    if (operraor == undefined) {
+        number += value
+    } else {
+        total += (number operator value)
+    }
+}
+
+// ------------------------------- //
+
+NOTE :- 
+- Press ( RESET ) 
+=> operator = undefined
+=> number = ""
+=> total = 0    
+
+// --------------------------------- //
+
+NOTE :- 
+- Press ( = ) 
+=> number = total
+=> total = 0    
+
+// --------------------------------- //
+
+
+NOTE :- 
+// Division by Zero
+
+
+
+
+
+
+

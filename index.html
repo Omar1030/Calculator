@@ -12,6 +12,7 @@
 
   <div class="container mx-auto mt-[100px] max-w-[400px] select-none">
     <section id="calc" class="p-4">
+      <!-- ? Actions -->
       <article id="actions" class="flex justify-between items-center px-1 text-(--text-white)">
         <p id="head" class="font-extrabold">calc</p>
         <div class="flex items-end gap-4">
@@ -34,65 +35,67 @@
           </div>
         </div>
       </article>
+      <!-- ? Result -->
       <article id="result"
-        class="bg-(--screen-background) text-(--text-white) text-end font-bold text-3xl md:text-4xl p-4 my-3 rounded-md">
-        399,991
+        class="flex flex-col justify-center h-[75px] bg-(--screen-background) text-(--text-white) text-end font-bold text-3xl md:text-4xl p-3 my-3 rounded-md">
+
       </article>
+      <!-- ? Buttons -->
       <article id="btns" class="bg-(--toggle-background) p-4 rounded-md">
         <div class="grid grid-cols-4 gap-3">
           <div
-            class="bg-(--gray-200-background) text-(--text-navy-750) text-center  py-3 rounded-md font-bold text-2xl cursor-pointer"
+            class="btn bg-(--gray-200-background) text-(--text-navy-750) text-center  py-3 rounded-md font-bold text-2xl cursor-pointer"
             id="btn-7">7</div>
           <div
-            class="text-center bg-(--gray-200-background) text-(--text-navy-750) py-3 rounded-md font-bold text-2xl cursor-pointer"
+            class="btn text-center bg-(--gray-200-background) text-(--text-navy-750) py-3 rounded-md font-bold text-2xl cursor-pointer"
             id="btn-7">8</div>
           <div
-            class="text-center bg-(--gray-200-background) text-(--text-navy-750) py-3 rounded-md font-bold text-2xl cursor-pointer"
+            class="btn text-center bg-(--gray-200-background) text-(--text-navy-750) py-3 rounded-md font-bold text-2xl cursor-pointer"
             id="btn-7">9</div>
           <div
-            class="bg-(--navy-800-shadow) text-(--text-white) text-center font-bold text-2xl py-3 rounded-md  cursor-pointer"
+            class="btn bg-(--navy-800-shadow) text-(--text-white) text-center font-bold text-2xl py-3 rounded-md  cursor-pointer"
             id="btn-7">DEL</div>
           <div
-            class="bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
+            class="btn bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
             id="btn-7">4</div>
           <div
-            class="bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
+            class="btn bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
             id="btn-7">5</div>
           <div
-            class="bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
+            class="btn bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
             id="btn-7">6</div>
           <div
-            class="bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
+            class="btn bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
             id="btn-7">+</div>
           <div
-            class="bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
+            class="btn bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
             id="btn-7">1</div>
           <div
-            class="bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
+            class="btn bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
             id="btn-7">2</div>
           <div
-            class="bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
+            class="btn bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
             id="btn-7">3</div>
           <div
-            class="bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
+            class="btn bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
             id="btn-7">-</div>
           <div
-            class="bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
+            class="btn bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
             id="btn-7">.</div>
           <div
-            class="bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
+            class="btn bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
             id="btn-7">0</div>
           <div
-            class="bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
+            class="btn bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
             id="btn-7">/</div>
           <div
-            class="bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
-            id="btn-7">X</div>
+            class="btn bg-(--gray-200-background) text-(--text-navy-750) text-center font-bold text-2xl py-3 rounded-md cursor-pointer"
+            id="btn-7">*</div>
           <div
-            class="col-span-2 bg-(--navy-800-shadow) text-(--text-white) text-center font-bold text-2xl py-3 rounded-md  cursor-pointer"
+            class="btn col-span-2 bg-(--navy-800-shadow) text-(--text-white) text-center font-bold text-2xl py-3 rounded-md  cursor-pointer"
             id="btn-7">RESET</div>
           <div
-            class="col-span-2 bg-(--red-600-background) text-(--text-white) text-center font-extrabold text-2xl py-3 rounded-md cursor-pointer"
+            class="btn col-span-2 bg-(--red-600-background) text-(--text-white) text-center font-extrabold text-2xl py-3 rounded-md cursor-pointer"
             id="btn-7">=</div>
         </div>
       </article>
